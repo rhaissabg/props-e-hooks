@@ -1,10 +1,20 @@
+import { useState } from 'react';
 import './Contador.css'
 
 function Contador() {
+
+  const [valor, setValor] = useState<number>(0);
+
+  function somarMaisUm() {
+    setValor(valor + 1);
+  }
+
+  console.log(valor);
+
   return (
     <div className="container">
-        <p>O valor é: valor</p>
-        <button>Adicionar +1</button>
+        <p>O valor é: {valor}</p>
+        <button onClick={somarMaisUm}>Adicionar +1</button>
     </div>
   )
 }
