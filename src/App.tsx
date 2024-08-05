@@ -1,9 +1,9 @@
-import Task from "./components/Task/Task"
+import Home from "./components/Home/Home"
 
 function App() {
   return (
     <>
-      <Task/>
+      <Home/>
     </>
   )
 }

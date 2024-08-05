@@ -1,0 +1,17 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 480px;
+    height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
